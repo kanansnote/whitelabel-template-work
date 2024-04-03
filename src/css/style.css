@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  align-items: center;
+  gap: 10vh;
+}
+header img {
+  width: 10%;
+  height: 15vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header nav ul {
+  display: flex;
+  gap: 5vh;
+}
+header nav ul li {
+  list-style-type: none;
+}
+header nav ul li a {
+  color: #3b444e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

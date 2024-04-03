@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    align-items: center;
+    gap: 10vh;
+
+    img {
+        width: 10%;
+        height: 15vh;
+        object-fit: contain;
+    }
+
+    nav {
+
+        ul {
+            display: flex;
+            gap: 5vh;
+
+            li {
+                list-style-type: none;
+
+                a {
+                    color: #3b444e;
+                }
+            }
+        }
+    }
+}
