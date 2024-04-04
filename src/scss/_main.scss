@@ -8,14 +8,14 @@ main {
 
         #upBannerHeader {
             width: 50%;
-            
+
             h1 {
                 line-height: 55px;
                 font-size: 40px;
                 font-weight: 500;
                 color: #0e90e4;
             }
-            
+
             p {
                 line-height: 35px;
                 color: #637280;
@@ -32,13 +32,13 @@ main {
         flex-direction: column;
         text-align: center;
         align-items: center;
-        
+
         #featuresCards {
             display: flex;
             justify-content: center;
             gap: 5vh;
             padding: 10vh 0;
-            
+
             .featuresCard {
                 display: flex;
                 flex-direction: column;
@@ -59,7 +59,7 @@ main {
             border-radius: 5vh;
             transition: 0.5s ease-in-out;
             margin-bottom: 8vh;
-    
+
             &:hover {
                 background-color: #076BAB;
             }
@@ -82,17 +82,28 @@ main {
                 gap: 2vh;
 
                 h1 {
-                    color:#0e90e4;
+                    color: #0e90e4;
                 }
+
             }
 
-            ul {
+
+            #dedicatedSupportLists {
                 display: flex;
-                align-items: center;
-                flex-wrap: wrap;
-                gap: 5vh;
-                align-items: center;
-                width: 85%;
+                gap: 25vh;
+                margin-left: 3vh;
+
+                .dedicatedSupportList {
+
+                    ul {
+                        display: flex;
+                        align-items: center;
+                        flex-wrap: wrap;
+                        gap: 2vh;
+                        align-items: center;
+                        width: 85%;
+                    }
+                }
             }
         }
     }

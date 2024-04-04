@@ -3,6 +3,7 @@ header {
     justify-content: space-around;
     align-items: center;
     gap: 10vh;
+    padding: 5vh 0 5vh 0;
 
     img {
         width: 10%;
@@ -14,12 +15,18 @@ header {
         ul {
             display: flex;
             gap: 5vh;
-
+            
             li {
+                display: flex;
                 list-style-type: none;
 
                 a {
                     color: #3b444e;
+                    transition: 0.3s ease-in-out;
+
+                    &:hover {
+                        color: #0e90e4;
+                    }
                 }
             }
         }
@@ -30,8 +37,8 @@ header {
         gap: 5vh;
 
         img {
-            width: 10vh;
-            height: 10vh;
+            width: 40px;
+            height: 30px;
         }
 
     }
@@ -39,8 +46,15 @@ header {
     #headerEnglishUSLang {
         display: flex;
         align-items: center;
-        gap: 2vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
         border: 1px solid #555;
+        border-radius: 6vh;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
 
+        &:hover {
+            color: #0e90e4;
+        }
     }
 }
