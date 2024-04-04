@@ -1,11 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chivo", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 header {
   display: flex;
+  justify-content: space-around;
   align-items: center;
   gap: 10vh;
 }
 header img {
   width: 10%;
-  height: 15vh;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -19,13 +31,100 @@ header nav ul li {
 header nav ul li a {
   color: #3b444e;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+header #headerIconLinks {
+  display: flex;
+  gap: 5vh;
+}
+header #headerIconLinks img {
+  width: 10vh;
+  height: 10vh;
+}
+header #headerEnglishUSLang {
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+  border: 1px solid #555;
 }
 
-a {
-  text-decoration: none;
+main #UpBanner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 15vh 0;
+}
+main #UpBanner #upBannerHeader {
+  width: 50%;
+}
+main #UpBanner #upBannerHeader h1 {
+  line-height: 55px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #0e90e4;
+}
+main #UpBanner #upBannerHeader p {
+  line-height: 35px;
+  color: #637280;
+}
+main #UpBanner img {
+  width: 75vh;
+}
+main #Features {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+main #Features #featuresCards {
+  display: flex;
+  justify-content: center;
+  gap: 5vh;
+  padding: 10vh 0;
+}
+main #Features #featuresCards .featuresCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+main #Features #featuresCards .featuresCard i {
+  font-size: 36px;
+  color: #0e90e4;
+}
+main #Features a {
+  background-color: #0e90e4;
+  color: white;
+  padding: 6px 20px 5px;
+  border-radius: 5vh;
+  transition: 0.5s ease-in-out;
+  margin-bottom: 8vh;
+}
+main #Features a:hover {
+  background-color: #076BAB;
+}
+main #DedicatedSupport {
+  display: flex;
+  align-items: center;
+  gap: 5vh;
+}
+main #DedicatedSupport #dedicatedSupportText {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+main #DedicatedSupport #dedicatedSupportText #dedicatedSupportHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+main #DedicatedSupport #dedicatedSupportText #dedicatedSupportHeader h1 {
+  color: #0e90e4;
+}
+main #DedicatedSupport #dedicatedSupportText ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5vh;
+  align-items: center;
+  width: 85%;
 }/*# sourceMappingURL=style.css.map */

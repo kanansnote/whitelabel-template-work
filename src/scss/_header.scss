@@ -1,11 +1,11 @@
 header {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     gap: 10vh;
 
     img {
         width: 10%;
-        height: 15vh;
         object-fit: contain;
     }
 
@@ -23,5 +23,24 @@ header {
                 }
             }
         }
+    }
+
+    #headerIconLinks {
+        display: flex;
+        gap: 5vh;
+
+        img {
+            width: 10vh;
+            height: 10vh;
+        }
+
+    }
+
+    #headerEnglishUSLang {
+        display: flex;
+        align-items: center;
+        gap: 2vh;
+        border: 1px solid #555;
+
     }
 }
